@@ -1,0 +1,22 @@
+POST /aws-ec/_delete_by_query
+{
+  "query": {
+    "range": {
+      "Date": {
+        "gte": "2021-01-05T00:00:00Z"
+          }
+        }
+      }
+    }
+
+GET /aws-rg/_search
+{
+  "query": {
+     "range": {
+       "Date": {
+         "gte": "2020-12-01T00:00:00Z",
+            "lt": "2021-01-01T00:00:00Z"
+            }
+          }
+        }
+      }

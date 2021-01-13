@@ -1,3 +1,4 @@
+//delete by query
 POST /aws-ec/_delete_by_query
 {
   "query": {
@@ -8,7 +9,7 @@ POST /aws-ec/_delete_by_query
         }
       }
     }
-
+//Busqueda por rango en indice
 GET /aws-rg/_search
 {
   "query": {

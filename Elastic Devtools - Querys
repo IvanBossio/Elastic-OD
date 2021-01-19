@@ -21,3 +21,16 @@ GET /aws-rg/_search
           }
         }
       }
+//doc count
+GET /oci-dc/_count
+{
+  "query": {
+    "regexp": {
+      "path": {
+        "value": ".*0001000000093873.*"
+      }
+    }
+  }
+}
+//estado y desde cuando esta iniciado el servicio
+systemctl status logstash

@@ -34,3 +34,6 @@ GET /oci-dc/_count
 }
 //estado y desde cuando esta iniciado el servicio
 systemctl status logstash
+
+GET _cat/nodes?v=true
+verificar nodos elastic

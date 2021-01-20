@@ -37,3 +37,15 @@ systemctl status logstash
 
 GET _cat/nodes?v=true
 verificar nodos elastic
+
+Cuál es la conformación de clúster y el rol de cada uno de los nodos (master, data, ingest, ml).
+
+39 94 11  6.39 5.78 6.12 mdi * elastic-node4
+
+42 97  9  9.24 6.82 6.30 mdi - elastic-node5
+
+36 65 22  8.05 7.01 6.23 i   - elastic-node1
+
+55 92  7 10.09 8.48 7.13 mdi - elastic-node3
+
+48 91  8  2.03 2.08 2.04 mdi - elastic-node2
